@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300;400;700&family=Poppins:wght@300;400&family=Roboto&family=Tektur&family=Unlock&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+    color: white;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 25px 0;
+}
